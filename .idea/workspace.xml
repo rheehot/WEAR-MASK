@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cd2c89d-d2db-4d77-b8a3-13140e513212" name="Default Changelist" comment="" />
+    <list default="true" id="0cd2c89d-d2db-4d77-b8a3-13140e513212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hackathon-mask/src/components/mainPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackathon-mask/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/public/recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/public/recommend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/public/recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/public/recommend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/src/components/main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/src/components/photoUpload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/src/components/photoUpload.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-recommend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon-mask/vue.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +47,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-node="node">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,10 +65,18 @@
       <option name="presentableId" value="Default" />
       <updated>1589598801498</updated>
       <workItem from="1589598802862" duration="67000" />
+      <workItem from="1589600462868" duration="1237000" />
+      <workItem from="1589601811892" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1864" y="-314" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589600812367">
+      <screen x="1440" y="-527" width="1920" height="1080" />
+    </state>
+    <state x="1864" y="-314" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-527.1920.1080@1440.-527.1920.1080" timestamp="1589600812367" />
   </component>
 </project>
