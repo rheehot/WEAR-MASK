@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <Recommend/>
+    <main/>
   </div>
 </template>
 
 <script>
-  import Recommend from '@/components/recommend'
+  import main from '@/components/main'
 
   export default {
     name: 'app',
-    components: {Recommend}
+    components: { main }
   }
 </script>
