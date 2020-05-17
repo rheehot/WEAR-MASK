@@ -2,7 +2,7 @@
 async function getFaceInfo(imageData) {
   AWS.config.region = "ap-northeast-2"; // 리전
   AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: "ap-northeast-2:1ea17bad-714a-4e6e-9fee-e4203f40ebb4",
+    IdentityPoolId: "IDENTITY_POOL_ID",
   });
   // Make the call to obtain credentials
   AWS.config.credentials.get();
