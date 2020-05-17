@@ -3,13 +3,15 @@
         <div>
             <full-page ref="fullpage" :options="options" id="fullpage">
                 <div class="section">
-                    <p class="title">#WearingMaskChallenge</p>
-                    <photo-upload/>
+                    <p class="title">#WearMask</p>
+                    <rekognition/>
                 </div>
                 <div class="section">
-                    <div class="section2-msg"><p>우리는 늘 이겨냈고, 이번에도 함께 이겨낼 것입니다.</p>
-                        <p>힘든 시기를 헤쳐 나가는 모든 분들을 응원합니다.</p><br>
-                        <span>AUSG JSY Team</span>
+                    <div class="section2-msg"><p>By doing our part, we will get through this.</p>
+                        <p>We cheer for everyone who is going through difficult times.</p><br>
+                    </div>
+                    <div>
+                        <img src="../assets/logo-black@1x.png" class="ausg-logo">
                     </div>
                 </div>
             </full-page>
@@ -18,16 +20,17 @@
 </template>
 
 <script>
-    import photoUpload from './photoUpload.vue';
+    import rekognition from './rekognition.vue';
     import {reactive, toRefs} from "@vue/composition-api";
     export default {
         name: "mainPage",
         components: {
-            photoUpload
+            rekognition
         },
         setup() {
             const state = reactive({
                 options: {
+                    licenseKey: 'YOUR_KEY_HERE',
                     menu: '#menu',
                     anchors: ['page1', 'page2'],
                     sectionsColor: ['#000000', '#000000']
@@ -45,21 +48,27 @@
     .title {
         color: orange;
         font-weight: bold;
-        font-size: 5rem;
+        font-size: 7rem;
         text-align: center;
-        margin-top: -10rem;
-        font-family: 'Lato', sans-serif;
+        margin-top: -3rem;
+        font-family: 'Quicksand', sans-serif;
+        text-shadow: 3px 3px 3px #1a1a1a;
     }
     .section2-msg {
         color: orange;
         text-align: center;
+        font-family: 'Quicksand', sans-serif;
         p {
-            font-size: 3rem;
-            font-family: 'Do Hyeon', sans-serif;
+            font-size: 2.5rem;
         }
         span {
             font-size: 2rem;
-            font-family: 'Do Hyeon', sans-serif;
         }
+    }
+    .ausg-logo {
+        width: 10.5rem;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
     }
 </style>
